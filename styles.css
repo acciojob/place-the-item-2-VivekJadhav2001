@@ -1,2 +1,29 @@
+.holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.holder > div:nth-child(1) {
+  background: red;
+height:15vmin;
+width:15vmin;
+text-align:center
+}
+
+.holder > div:nth-child(2) {
+  background: blue;
+	height:15vmin;
+width:15vmin;
+text-align:center
+}
+
+.holder > div:nth-child(3) {
+  background: green;
+height:15vmin;
+width:15vmin;
+text-align:center
+}
 
 /* Your CSS Code here. */
